@@ -1,0 +1,41 @@
+::placeholder {
+    color: $grey-medium;
+}
+:-ms-input-placeholder {
+    color: $grey-medium !important;
+}
+::-moz-placeholder {
+    color: $grey-medium;
+    opacity: 1;
+  }
+
+*[type="email"],
+*[type="password"] {
+    width: 100%;
+    border: 1px solid $grey-light;
+    color: $grey-semi;
+    background-color: $grey-very-light;
+    font-size: 12px;
+    padding: 18px 20px;
+    margin-bottom: 20px;
+    border-radius: $border-radius;
+    outline: none;
+
+    &:focus {
+        border: 1px solid $primary;
+    }
+}
+
+.input-field {
+    position: relative;
+
+    input {
+        padding-right: 36px;
+    }
+    .input-icon {
+        position: absolute;
+        right: 20px;
+        top: 18px;
+        width: 16px;
+    }
+}

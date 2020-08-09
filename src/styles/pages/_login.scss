@@ -1,0 +1,11 @@
+.login-page-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: radial-gradient($primary, $primary-very-dark);
+    @media screen and (max-width: $break-medium){
+        align-items: baseline;
+        padding-top: 50px;
+    }
+}

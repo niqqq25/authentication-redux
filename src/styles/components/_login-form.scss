@@ -1,0 +1,29 @@
+.login-form {
+    border-radius: $border-radius;
+    box-shadow: -2px 18px 48px -20px rgba(0,0,0,0.75);
+    width: 400px;
+    @media screen and (max-width: $break-medium) {
+        width: 90%;
+    }
+}
+
+.login-form__header {
+    background: $primary;
+    background-image: $vertical-shading;
+    padding: 20px 24px;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+
+    h1 {
+        font-size: 14px;
+        color: $white;
+        text-shadow: $text-shadow;
+    }
+}
+
+.login-form__body {
+    background-color: $grey-ultra-light;
+    padding: 20px 20px 30px 20px;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+}

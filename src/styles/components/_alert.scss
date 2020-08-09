@@ -1,0 +1,13 @@
+.alert {
+    font-size: 12px;
+    padding: 12px 20px;
+    margin-bottom: 16px;
+    border-radius: $border-radius;
+    border: 1px solid transparent;
+}
+
+.alert-danger {
+    color: $danger-text;
+    background-color: $danger-default;
+    border-color: $danger-border;
+}

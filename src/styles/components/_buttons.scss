@@ -1,0 +1,20 @@
+.btn {
+    width: fit-content;
+    border: none;
+    border-radius: $border-radius;
+    background-color: $primary;
+    background-image: $vertical-shading;
+    padding: 13px 30px;
+    font-size: 13px;
+    color: $white;
+    text-shadow: $text-shadow;
+    transition: background-color .15s;
+    &:hover {
+        cursor: pointer;
+        background-color: $primary-dark;
+    }
+    &:disabled {
+        cursor: default;
+        background-color: $primary-light;
+    }
+}
